@@ -1,10 +1,12 @@
 # Meal Search Web App
 
+I've Updated My favourite meals but from a creative perspective i gave it on the same page so that user should know what he is making favorite as he goes through the meal.
+
 This is a simple web application that allows users to search for meals by name and view details about each meal, including its ingredients, instructions, and a link to a YouTube video (if available). The app uses the MealDB API to fetch meal data.
 
 ## Live Demo
 
-You can check out the live demo of the app [here](https://your-live-demo-url).
+You can check out the live demo of the app [here]([https://your-live-demo-url](https://yaseenyk.github.io/meal-app/)).
 
 ## How to Use
 
