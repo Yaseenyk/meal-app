@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-
-    <title>Meal app</title>
-  </head>
-  <body>
-    <div class="Container">
-      <div class="inner-container">
-        <div class="Allignment">
-          <div class="Heading">Welcome to Eatland</div>
-          <div class="indise-heading">
-            <input
-              type="text"
-              class="check-Input"
-              id="search-meal"
-              placeholder="Search for Meal"
-            />
-            <button type="button" class="search-button" id="submit-meal">
-              Search
-            </button>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Meal app</title>
+</head>
+<body>
+  <div class="Container">
+    <div class="inner-container">
+      <div class="Allignment">
+        <div class="Heading">Welcome to Eatland</div>
+        <div class="indise-heading">
+          <input type="text" class="check-Input" id="search-meal" placeholder="Search for Meal" />
+          <button type="button" class="search-button" id="submit-meal">Search</button>
         </div>
-        <div class="main-container"></div>
-        <div class="Popup" id="Popup"></div>
       </div>
+      <div class="main-container"></div>
+      <div class="favourite-container">
+        <h2>My Favourite Meals</h2>
+        <div class="favourite-meals" id="favourite-meals"></div>
+      </div>
+      <div class="Popup" id="Popup"></div>
     </div>
-    <script src="app.js"></script>
+  </div>
+  <script src="app.js"></script>
   </body>
 </html>
