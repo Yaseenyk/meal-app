@@ -5,7 +5,6 @@ const favouriteContainer = document.querySelector(".favourite-meals");
 const Popup = document.getElementById("Popup");
 let mealsData = []; // To store the meals data
 let favouriteMeals = JSON.parse(localStorage.getItem("favouriteMeals")) || [];
-
 submit.onclick = () => {
   const mealText = search.value.trim();
   console.log(mealText);
